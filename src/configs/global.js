@@ -5,3 +5,5 @@ const pool = mysql.createPool({
     user: 'root',
     connectionLimit: 5
 })
+
+export default pool;

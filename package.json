@@ -4,6 +4,8 @@
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "body-parser": "^1.20.1",
+    "cjs": "^0.0.11",
+    "connect": "^3.7.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-validator": "^6.14.3",
@@ -12,5 +14,22 @@
     "mysql2": "^3.1.2",
     "nodemon": "^2.0.20",
     "redis": "^4.6.4"
-  }
+  },
+  "name": "gameapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LongNguyen15102002/GameAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LongNguyen15102002/GameAPI/issues"
+  },
+  "homepage": "https://github.com/LongNguyen15102002/GameAPI#readme",
+  "description": ""
 }
